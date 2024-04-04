@@ -1,0 +1,45 @@
+nav {
+    background: black;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 20px;
+}
+a.menu {
+    color: white;
+    text-decoration: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 100px;
+    font-style: normal;
+}
+a.menu:hover{
+    color: black;
+    background: #E0C4C4;
+}
+
+body{
+    margin: 0px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 100px;
+    font-style: normal;
+}
+
+div#profile{
+    padding: 20px;
+    width: 20%;
+    border: 2px blue solid;
+    display: inline-block;
+}
+
+div#bio{
+    padding: 20px;
+    width: 53%;
+    border: 2px red  solid;
+    display: inline-block;
+}
+#pfp{
+    float: inherit;
+}
