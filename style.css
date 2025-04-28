@@ -100,11 +100,13 @@ div.spacer {
         clear: both;
     }
 
-div#gallery{
-    padding-top: 1px;
-    text-align: center;
-    background: white;
-}
+    div#gallery {
+        padding-top: 1px;
+        text-align: center;
+        background: white;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
 
 iframe.gallery {
     width: 50%;
