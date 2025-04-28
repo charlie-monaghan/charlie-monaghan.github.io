@@ -12,47 +12,70 @@
     </head>
     
     <body>
-        
+
         <nav id="index">
-            <a class="menu" href="http://google.com" target="_self">Google but in this tab</a>
-            <a class="menu" href="http://google.com" target="_blank">Google but in another tab</a>
-            <a class="menu" href="#gallery"> Gallery </a>
+            
+            <a class="menu" href="#gallery"> Projects </a>
             <a class="menu" href="aboutme.html">About</a>
             <a class="menu" href="resume.pdf" target="_blank">Resume (old)</a>
         </nav>
-        
-        
-        <!-- Profile div-->
-        <!-- use px or % to set image sizes-->
-        <div id="profile">
-            <img id="pfp" src="gibbon.jpg" width="100%" alt="gibbon headshot">
+
+        <div class="spacer">
+
         </div>
-        
-        
-        <!-- Bio div -->
-        <div id="bio">
-            <h1>My name is Charlie Monaghan</h1>
-            <h2>Learning at the University of Florida Digital Worlds Institute</h2>
-            <p>I am a 20 year old Digital Arts and Science major, learning about game development and making my own games. This bio was created as filler text for an assignment for my UX (user experience) class to ensure that this website can scroll. My interests in no particular order are Seinfeld, Red Hot Chili Peppers, Magic: The Gathering, Metal Gear Solid, and the games I'm playing the most recently are Helldivers 2 and Rimworld. (Featured in About Me)</p>
+
+        <!--Contains profile and bio-->
+        <div id="topContainer">
+            <!-- Profile div-->
+            <!-- use px or % to set image sizes-->
+            <div id="profile">
+                <img id="pfp" src="gibbon.jpg" alt="gibbon headshot">
+            </div>
+
+
+            <!-- Bio div -->
+            <div id="bio">
+                <h1>Hi! I'm Charlie.</h1>
+                <p>I am a Digital Arts and Science major in the Digital Worlds Institute at the University of Florida, learning about game design, development, and programming. Featured below are some of the projects that I've worked on since enrolling at the DWI.</p>
+            </div>
         </div>
-        
-        
+
+
         <!-- Social Media div-->
         <div id="social">
-            <a class="social" href="http://instagram.com" target="_blank">Instagram</a>
-            <a class="social" href="http://twitter.com" target="_blank">Twitter</a>
-            <a class="social" href="http://Linkedin.com" target="_blank">LinkedIn</a>
+            <a class="social" href="https://github.com/charlie-monaghan" target="_blank">My Github</a>
+            <a class="social" href="https://www.behance.net/CharlieMonaghan" target="_blank">My Behance</a>
+            <a class="social" href="https://www.linkedin.com/in/charles-monaghan-81666a338/" target="_blank">My LinkedIn</a>
+            <a class="social" href="https://major-mango.itch.io/" target="_blank">My itch.io</a>
         </div>
-            
-        
+
+
         <!--Gallery div-->
         <div id="gallery">
-            <h1>Gallery</h1>
-            <img class="gallery" src="evil%20wizard%20cat.PNG">
-            <img class="gallery" src="mmmmangoes.jpg">
-            <img class="gallery" src="siamang-gibbon.gif">
-            <img class="gallery" src="hoolock%20swangin.gif">
+            <h1>Projects</h1>
+            <div>
+                <h2>RUNK</h2>
+                <iframe class="gallery" width="560" height="315" src="https://www.youtube-nocookie.com/embed/R099fPu7qQU?si=h3LM7NuJMnwxYf6z&amp&mute=1&controls=0;controls=0" title="RUNK Gameplay Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>.
+                <p class="gallery">
+                    RUNK is my first ever experience in game development and programming. Overall, I think it was an enormous help in exposing me to the various angles of game development, and the different paths that I could
+                    have chosen to take. Through the help of a package of starter scripts and art assets found online, I was able to create a story that I found interesting, which is explored through the character interactions
+                    and exploring the stage. Creating the logic for the two gambling games, Higher Lower and Slots, was an interesting challenge as a first time user of Unity and it's Scripting.
+                </p>
+            </div>
+
+            <div class="spacer">
+            </div>
+
+            <div>
+                <h2>Unhanged Man</h2>
+                <iframe class="gallery" width="560" height="315" src="https://www.youtube-nocookie.com/embed/z9XjWoiBAbo?si=vQbaPUUvtmkAgTt9&amp&mute=1&controls=0;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <p class="gallery">
+                    Unhanged Man is a metroidvania roguelike game that I worked on with a team of four other of my collegues. This was my first experience in collaborative game development and version control, and I value it highly
+                    for the knowledge that it gave me. In the end, I was responsible for the managers, data tracking between scenes, the weapon and items system, a lot of UI, and other various systems. Seeing as our team was 
+                    rather small, we each had a hand in all of the systems either way, which was a valuable learning experience. For more information about the game specifically, visit my itch.io page for more details.
+                </p>
+            </div>
         </div>
-        
+
     </body>
 </html>

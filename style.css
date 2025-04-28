@@ -57,30 +57,48 @@ body{
     background: #dec3c5;
 }
 
-p{
+p {
+    font-size: 20px;
     font-weight: 500;
 }
 
-div#profile{
-    margin-top: 80px;
-    padding-left: 25%;
-    width: 25%;
-    display: inline-block;
+div{
+    
 }
 
-div#bio{
-    width: 25%;
-    padding: 10px;
-    display: inline-block;
-}
-
-div#social{
-    text-align: center;
-    background: black;
-    padding-top: 15px;
-    padding-bottom: 15px;
+div.spacer {
+    height: 50px;
     width: 100%;
 }
+
+    div#topContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    div#profile {
+        
+        padding: 10px;
+        width: 25%;
+        display: inline-block;
+    }
+
+    div#bio {
+        
+        width: 25%;
+        padding: 10px;
+        display: inline-block;
+    }
+
+    div#social {
+        text-align: center;
+        background: black;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        width: 100%;
+        clear: both;
+    }
 
 div#gallery{
     padding-top: 1px;
@@ -88,8 +106,24 @@ div#gallery{
     background: white;
 }
 
-img.gallery {
+iframe.gallery {
     width: 50%;
+
+}
+
+img.gallery {
+    width: 75%;
+}
+
+p.gallery {
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 18px;
+}
+
+img#pfp {
+    width: 100%;
+    height: auto;
 }
 
 div#aboutme{
@@ -101,4 +135,18 @@ div#aboutme{
 div#images{
     width: 40%;
     margin: auto;
+}
+
+@media (max-width: 768px) {
+    div#topContainer {
+        flex-direction: column;
+    }
+
+    img#pfp {
+        justify-self: center;
+    }
+
+    div#profile, div#bio {
+        width: 80%;
+    }
 }
