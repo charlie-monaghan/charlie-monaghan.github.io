@@ -151,4 +151,8 @@ div#images{
     div#profile, div#bio {
         width: 80%;
     }
+
+    iframe.gallery {
+        width: 75%;
+    }
 }
