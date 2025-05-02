@@ -27,7 +27,7 @@ a.menu {
 }
 a.menu:hover{
     color: black;
-    background: #E0C4C4;
+    background: #dea4a8;
     font-weight: 700;
 }
 
@@ -45,7 +45,7 @@ a.social{
 
 a.social:hover{
     color: black;
-    background: #E0C4C4;
+    background: #dea4a8;
     font-weight: 700;
 }
 
@@ -54,7 +54,7 @@ body{
     font-family: "Roboto Condensed", sans-serif;
     font-weight: 300;
     font-style: normal;
-    background: #dec3c5;
+    background: #dea4a8;
 }
 
 p {
@@ -106,8 +106,10 @@ div.spacer {
         background: black;
         padding-top: 15px;
         padding-bottom: 15px;
-        width: 100%;
+        
         clear: both;
+        margin-left: 10%;
+        margin-right: 10%;
     }
 
     div#gallery {
