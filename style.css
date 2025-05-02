@@ -152,7 +152,7 @@ div#images{
     margin: auto;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 320px) {
     div#topContainer {
         flex-direction: column;
     }
