@@ -81,7 +81,7 @@ div.spacer {
     width: 100%;
 }
 
-    div#topContainer {
+    div.Container {
         display: flex;
         justify-content: center;
         align-items: center;
