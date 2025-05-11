@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 nav#index {
     background: black;
     padding-top: 15px;
@@ -87,6 +91,24 @@ div.spacer {
         align-items: center;
     }
 
+    div.Contained{
+        padding: 10px;
+        width: 25%;
+        display: inline-block;
+    }
+
+    div.ContainedFilm {
+        padding: 10px;
+        width: 50%;
+        display: inline-block;
+    }
+
+    div.ContainedPhot {
+        padding: 10px;
+        width: 25%;
+        display: inline-block;
+    }
+    
     div#profile {
         
         padding: 10px;
@@ -125,8 +147,16 @@ iframe.gallery {
 
 }
 
+iframe.galleryFilm {
+    width: 90%;
+}
+
 img.gallery {
     width: 75%;
+}
+
+img.galleryPhot {
+    width: 85%;
 }
 
 p.gallery {
@@ -152,6 +182,19 @@ div#images{
     margin: auto;
 }
 
+.galleryPhot:hover {
+    color: #424242;
+    -webkit-transition: all .3s ease-in;
+    -moz-transition: all .3s ease-in;
+    -ms-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in;
+    transition: all .3s ease-in;
+    opacity: 1;
+    transform: scale(1.15);
+    -ms-transform: scale(1.15); /* IE 9 */
+    -webkit-transform: scale(2.5); /* Safari and Chrome */
+}
+
 @media (max-width: 1000px) {
     div.Container {
         flex-direction: column;
@@ -161,7 +204,11 @@ div#images{
         justify-self: center;
     }
 
-    div#profile, div#bio {
+    div.Contained {
+        width: 80%;
+    }
+
+    div.ContainedFilm {
         width: 80%;
     }
 

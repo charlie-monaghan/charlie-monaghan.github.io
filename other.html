@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Charlie Monaghan</title>
-        <link href="style.css" rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">  
-    </head>
+<head>
+    <title>Charlie Monaghan</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
 
     <body>
         <nav id="index">
@@ -21,14 +22,14 @@
         </div>
 
         <div class="Container">
-            <div id="profile">
+            <div class="Contained">
                 <h1>Non-Game Development Works</h1>
                 <p class="profile">Featured below are some of my other works and projects that don't quite fit neatly under game development. While game development is my main focus, interdisciplinary study is important for being well rounded and 
                 proficient in all areas of life. As such, the various programs I have experience in or have used at some point are listed. Out of all I have done, film, motion design/animation, and UI/UX have been the most enjoyable. 
                 While traditional and digital art and animation are not necessarily my strong suit, I've still tried my hand at it to some success.</p>
             </div>
 
-           <div id="bio">
+           <div class="Contained">
                 <ul>
                     <li>Photoshop</li>
                     <li>Illustrator</li>
@@ -43,7 +44,7 @@
         <div id="social">
             <a class="social" href="#graphicDesign">Animation</a>
             <a class="social" href="#motionDesign">Graphic/Motion Design</a>
-            <a class="social" href="#filmPhoto">Film and Photography</a>
+            <a class="social" href="#film">Film and Photography</a>
             <a class="social" href="#userExperience">User Experience</a>
         </div>
 
@@ -68,19 +69,49 @@
                 <p class="gallery"></p>
             </div>
 
-            <div class="spacer"></div>
+            <div id="film"></div>
 
             <div id="filmPhoto">
                 <h2>Film</h2>
-                <img id="pfp" src="gibbon.jpg" alt="gibbon headshot">
-                <p class="gallery">Film has surprised me as I began to explore it as of late. The physicality of a film set when compared to the digital landscape of other mediums of creation facinates me. From setting up lights, to 
-                fiddling with camera settings and placements, even to the acting within it are very fun to me and I feel that this is reflected in the quality of my work. For "The Florida Creature Feature" I was in charge of most of 
-                the pre-production, a good chunk of the production sections, and audio recording for post-production. For example: story formulation, reference gathering, some script writing, portraying The Florida Creature, and recording 
-                voicovers and foley. All in all the entire experience was fascinating, and it was super fun to be part of a team that made such an incredibly funny story. Alongside this, I've also experimented with compositing and post 
-                editing in Premiere Pro, which are shown along side "The Florida Creature Feature." I find it difficult but interesting to take raw footage and transform it into something else entirely, and am looking forward to improving 
-                my skills in the area.</p>
+                <div class="Container">
+                    <div class="ContainedFilm">
+                        <iframe class="galleryFilm" width="560" height="315" src="https://www.youtube.com/embed/Xu8-ljny_aI?si=Dsbq_40PcHpdWbTS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                    <div class="ContainedFilm">
+                        <iframe class="galleryFilm" width="560" height="315" src="https://www.youtube.com/embed/OgGkRvCVLQM?si=FkIdrVChEqq0ravU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <p class="gallery">
+                    Film has surprised me as I began to explore it as of late. The physicality of a film set when compared to the digital landscape of other mediums of creation facinates me. From setting up lights, to
+                    fiddling with camera settings and placements, even to the acting within it are very fun to me and I feel that this is reflected in the quality of my work. For "The Florida Creature Feature" I was in charge of most of
+                    the pre-production, a good chunk of the production sections, and audio recording for post-production. For example: story formulation, reference gathering, some script writing, portraying The Florida Creature, and recording
+                    voicovers and foley. All in all the entire experience was fascinating, and it was super fun to be part of a team that made such an incredibly funny story. Alongside this, I've also experimented with compositing and post
+                    editing in Premiere Pro, which are shown along side "The Florida Creature Feature." I find it difficult but interesting to take raw footage and transform it into something else entirely, and am looking forward to improving
+                    my skills in the area.
+                </p>
+
+                <div class="spacer"></div>
+
                 <h2>Photography</h2>
-                <p class="gallery"></p>
+                <div class="Container">
+                    <div class="ContainedPhot">
+                        <img src="baby sandhill crane.JPG" class="galleryPhot"/>
+                    </div>
+                    <div class="ContainedPhot">
+                        <img src="dragonfly.jpg" class="galleryPhot"/>
+                    </div>
+                    <div class="ContainedPhot">
+                        <img src="gator.JPG" class="galleryPhot"/>
+                    </div>
+                    <div class="ContainedPhot">
+                        <img src="lavender.JPG" class="galleryPhot"/>
+                    </div>
+                </div>
+                <p class="gallery">
+                    Spending time around cameras in film has inevitably led me towards trying my hand at photography too. After learning the basics of cinematography and how to manipulate the camera to do what you want, experiementing 
+                    with photography comes as a very familiar experience. While I don't personally own a camera other than my phone to take photos with, I rented a camera out for a weekend and took some photos on a nature walk in the 
+                    Gainesville Sweetwater Nature Preserve, which provided me with a wide range of subject matter to practice on, the best of which are featured just above.
+                </p>
             </div>
 
             <div class="spacer"></div>
