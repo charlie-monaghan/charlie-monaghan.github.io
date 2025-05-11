@@ -215,4 +215,7 @@ div#images{
     iframe.gallery {
         width: 75%;
     }
+    img.galleryPhot{
+        width: 100%;
+    }
 }
