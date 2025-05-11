@@ -204,6 +204,7 @@ div#images{
         justify-self: center;
     }
 
+
     div.Contained {
         width: 80%;
     }
@@ -212,10 +213,21 @@ div#images{
         width: 80%;
     }
 
+    div.ContainedPhot{
+        width: 100%;
+    }
+
     iframe.gallery {
         width: 75%;
     }
-    img.galleryPhot{
-        width: 100%;
+
+    .galleryPhot:hover {
+        transform: none;
+        -webkit-transform: none;
+        -moz-transition: none;
+        -ms-transition: none;
+        -o-transition: none;
+        transition: none;
+        opacity: 1;
     }
 }
