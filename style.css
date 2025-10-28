@@ -135,7 +135,7 @@ div.spacer {
     }
 
     div#gallery {
-        padding-top: 1px;
+/*        padding-top: 1px;*/
         text-align: center;
         background: white;
         margin-left: 10%;
@@ -167,7 +167,7 @@ p.gallery {
 }
 
 img#pfp {
-    width: 100%;
+    width: 50%;
     height: auto;
 }
 
@@ -193,6 +193,18 @@ div#images{
     transform: scale(1.15);
     -ms-transform: scale(1.15); /* IE 9 */
     -webkit-transform: scale(2.5); /* Safari and Chrome */
+}
+
+footer{
+    background: black;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 14px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }
 
 @media (max-width: 1000px) {
